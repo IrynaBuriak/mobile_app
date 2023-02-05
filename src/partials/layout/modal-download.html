@@ -5,7 +5,12 @@
 <!-- back drop -->
 <div class="backdrop is-hidden2" data-modal2>
   <div class="modal">
-    <button type="button" class="button-close" data-modal-close2></button>
+    <button type="button" class="video__close-btn" data-modal-close2>
+      <svg class="icon" width="19.21px" height="19.21px">
+        <use xlink:href="./images/sprite.svg#icon-closed-modal"></use>
+      </svg>
+    </button>
+
     <form class="form-order">
       <div class="form-order__set">
         <legend class="form-order__caption">Download</legend>
@@ -146,7 +151,10 @@
           </ul>
         </li>
       </ul>
-      <button type="submit" class="button-accent" download>Download</button>
+      <!-- <button type="submit" class="button-accent" download>Download</button> -->
+      <div class="download-btn">
+        <button class="download-button" type="submit" download>Download</button>
+      </div>
     </form>
   </div>
 </div>
